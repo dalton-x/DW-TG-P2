@@ -34,8 +34,6 @@ img.photo_profil{
 .name_lastname{    
     margin-left: 15%;
     margin-right: 15%;
-    margin-top: 15%;
-    margin-bottom: 15%;
 }
 
 .name{
@@ -48,7 +46,9 @@ img.photo_profil{
 }
 
 /*mise en gras du titre*/
-span.titre{    
+span.titre{   
+    margin-left: 15%;
+    margin-right: 15%;
     font-weight: bold;
     color: #4A4A4A;
 }
@@ -57,14 +57,28 @@ span.titre{
 span.underline{
     border-bottom: 2px solid #FECA07;
 }
+h3.h3_test{
+    text-align: center;
+    width: 100%;
+    color: #FECA07 ;
+    background-repeat:no-repeat;
+    background-position-x: 100% 100%;
+    background-color: #404040;
+}
 
 /*Mise en forme des h3*/
-h3{
+aside h3{
+    
+    left: 0%;
+    width: 100%;
     background-color: #404040;
     color: #FECA07 ;
     text-align: center;
-    font-family:  'Arial Narrow', Arial, sans-serif;
     text-transform: uppercase;
+}
+
+.a_propos_de_moi{
+    font-weight: 600;
 }
 
 /*Mise forme de la barre de separation*/
@@ -78,13 +92,9 @@ h4{
     text-transform: uppercase;
 }
 
-.titre_H4{
+.titre_h4{
     margin-left: 50px;
-    font-weight: 700;
-}
-
-li{
-    color: blue;
+    font-weight: bold;
 }
 
 .font_awesome{
