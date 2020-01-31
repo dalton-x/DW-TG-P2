@@ -2,13 +2,13 @@
     padding-top: 10px;
     font-size: 16px;
 }
-/*
+
 [class*="col-"], footer{
     background-color: rgba(243, 77, 77, 0.596);
     border: 2px solid black;
     line-height: 40px;
     border-radius: 6px;
-}*/
+}
 
 /*Mise en place de bootstrap*/
 .row{
@@ -31,9 +31,8 @@ img.photo_profil{
     margin-bottom: 15%;
 }
 
-.name_lastname{    
+.name, .titre{
     margin-left: 15%;
-    margin-right: 15%;
 }
 
 .name{
@@ -130,4 +129,8 @@ h5{
 
 img.logo{
     margin-left: 10%;
+}
+
+.recommendation{
+    text-align: center;
 }
