@@ -23,6 +23,7 @@
 
 header .col-sm-9{
     margin-top: 7%;
+    margin-bottom: 7%;
 }
 
 
@@ -145,16 +146,25 @@ img.logo{
 
 
 
-@media screen and (max-width: 375px){
-    header span.lastname{
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+    header span.lastname, header span.surname{
+        font-size: 35px;
         text-align: center;
     }
 
-    header span.surname{
-        text-align: center;
+    /*surlignage du titre*/
+    span.underline{
+        border-bottom: 0px solid #FECA07;
     }
     
     img.logo{
         margin-left: 8%;
+    }
+
+    .titre_h4{
+        font-size: smaller;
+        margin-left: 1px;
+        font-weight: bold;
     }
 }
