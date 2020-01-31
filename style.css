@@ -21,6 +21,11 @@
     background-color: #FECA07;
 }
 
+header .col-sm-9{
+    margin-top: 7%;
+}
+
+
 /*photo profil*/
 img.photo_profil{
     border-radius: 50%;
@@ -56,28 +61,30 @@ span.titre{
 span.underline{
     border-bottom: 2px solid #FECA07;
 }
-h3.h3_test{
-    text-align: center;
-    width: 100%;
-    color: #FECA07 ;
-    background-repeat:no-repeat;
-    background-position-x: 100% 100%;
-    background-color: #404040;
+
+address{
+    margin-left: 20px;
 }
 
 /*Mise en forme des h3*/
-aside h3{
-    
-    left: 0%;
-    width: 100%;
-    background-color: #404040;
+h3{
     color: #FECA07 ;
     text-align: center;
     text-transform: uppercase;
 }
 
+h3.titleAside{
+    background-color: #404040;
+}
+
+aside.col-sm-3{
+    text-align: justify;
+}
+
 .a_propos_de_moi{
     font-weight: 600;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 /*Mise forme de la barre de separation*/
@@ -133,4 +140,21 @@ img.logo{
 
 .recommendation{
     text-align: center;
+}
+
+
+
+
+@media screen and (max-width: 375px){
+    header span.lastname{
+        text-align: center;
+    }
+
+    header span.surname{
+        text-align: center;
+    }
+    
+    img.logo{
+        margin-left: 8%;
+    }
 }
