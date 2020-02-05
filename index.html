@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="CV de Thomas GIRARD en HTML5 et CSS3">
     <!-- Fichier CSS -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
     <!-- FontAwesome -->
     <script src="https://kit.fontawesome.com/6cddf60a8b.js"></script>
     <!-- Bootstrap -->
@@ -17,18 +17,21 @@
 
 <body>
     <div class="container-fluid">
-        <header class="row">
-            <div class="col-sm-3">
-                <img class="photo_profil" src="./images/photo_profil.png" alt="Photo de profil" title="Photo de profil">
-            </div>
-            <div class="col-sm-9">
-                <span class="name"><span class="surname">THOMAS </span><span class="lastname">GIRARD</span><br></span>
-                <span class="titre"><span class="underline">Dével</span>oppeur Web Freelance</span>
-            </div>
-        </header>
+        <!--  -->
         <div class="row">
-            <aside class="col-sm-3">
-                <h3 class="titleAside">contact</h3>
+            <div class="col-sm-4">
+                <img class="rounded-circle shadow p-1 " src="./images/photo_profil.png" alt="Photo de profil"
+                    title="Photo de profil">
+            </div>
+            <div class="col-sm-8">
+                <h1><span class="text-warning">Thomas</span> Girard</h1>
+                <h2><span class="border-bottom">Dével</span>oppeur web freelance</h2>
+            </div>
+        </div>
+        <!--  -->
+        <div class="row">
+            <div class="col-sm-4">
+                <h4 class="p-3 mb-4 font-weight-bold">Contact</h4>
                 <address>
                     Adresse: <br>
                     <a href="https://www.google.fr/maps/place/18410+Blancafort/@47.5361832,2.5072538,13"
@@ -38,162 +41,241 @@
                     E-mail: <br>
                     <a href="mailto:monemail">mon email ICI</a>
                 </address>
-            </aside>
-            <section class="col-sm-9">
-                <h4>
-                    <span class="font_awesome">
-                        <i class="fa fa-graduation-cap" aria-hidden="true"></i>
-                    </span>
-                    <span class="titre_h4">Formation</span>
-                </h4>
-                <hr>
+            </div>
+            <!--  -->
+            <section class="col-sm-8">
+                <h3 class=" ml-2 font-weight-bold"><i class="fa fa-graduation-cap mr-5" aria-hidden="true"></i>Formation
+                </h3>
+                <hr class="bg-warning">
                 <div class="row">
-                    <aside class="col-md-3">
-                        <span class="circleCheck"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></span>
-                        Depuis Janvier 2020 <br>
-                        <span class="localisation">À Distance</span>
+                    <!--  -->
+                    <aside class="col-sm-3">
+                        <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                            Depuis Janvier 2020<br>
+                            À Distance
+                        </p>
                     </aside>
-                    <article class="col-md-9">
-                        <h5>OPENCLASSROOMS</h5>
-                        <div class="job">Développeur Web </div>
-                        <p>Faites vos premiers pas dans le monde du développement web : créez des sites web et donnez
-                            vie aux maquettes !</p>
+                    <!--  -->
+                    <article class="col-sm-9">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h5>Openclassrooms</h5>
+                            </div>
+                            <div class="col-sm-12">
+                                <h6>Développeur web</h6>
+                                <p>
+                                    Faites vos premiers pas dans le monde du développement web : créez des sites web et
+                                    donnez vie aux maquettes !
+                                </p>
+                            </div>
+                        </div>
                     </article>
-                </div>
-                <div class="row">
-                    <aside class="col-md-3">
-                        <span class="circleCheck"><i class="fa fa-circle" aria-hidden="true"></i></span>
-                        Obtenue en 2005 <br>
-                        <span class="localisation">Formation continue</span>
+                    <!--  -->
+                    <aside class="col-sm-3">
+                        <p><i class="fa fa-circle " aria-hidden="true"></i>
+                            Obtenu en 2005<br>
+                            Formation continue
+                        </p>
                     </aside>
-                    <article class="col-md-9">
-                        <h5>BEP METIER DE L'ELECTROTECHNIQUE</h5>
-                        <div class="job">Electricien</div>
-                        <span class="BEP">
-                            Les situations professionnelles visées par ce diplôme de niveau V concernent la mise en
-                                œuvre,
-                                l’exploitation et la maintenance des installations et des équipements électriques.
-                        </span>
+                    <!--  -->
+                    <article class="col-sm-9">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h5>BEP METIER DE L'ELECTROTECHNIQUE</h5>
+                            </div>
+                            <div class="col-sm-12">
+                                <h6>Electricien</h6>
+                                <p>
+                                    Les situations professionnelles visées par ce diplôme de niveau V concernent la mise
+                                    en œuvre, l’exploitation et la maintenance des installations et des équipements
+                                    électriques.
+                                </p>
+                            </div>
+                        </div>
                     </article>
                 </div>
             </section>
-            <aside class="col-sm-3">
-                <h3 class="titleAside">À propos de moi</h3>
-                <p class="a_propos_de_moi">
-                    Electricien avec plus de 10 ans d'experience dans le batiment et l'industrie.
-                    Suite a un accident de la vie, je me suis retrouvé inapte dans mon domaine.
+        </div>
+        <!--  -->
+        <div class="row">
+            <!--  -->
+            <div class="col-sm-4">
+                <!--  -->
+                <h4 class="p-3 mb-4 font-weight-bold">À propos de moi</h4>
+                <p class="pl-5 pr-5">
+                    Electricien avec plus de 10 ans d'experience dans le batiment et l'industrie. 
+                </p>
+                <p class="pl-5 pr-5">
+                    Suite a un accident de
+                    la vie, je me suis retrouvé inapte dans mon domaine.
+                </p>
+                <p class="pl-5 pr-5">
                     En reconversion professionnelle.
+                </p>
+                <p class="pl-5 pr-5">
                     Reconnu travailleur handicapé.
+                </p>
+                <p class="pl-5 pr-5">
                     Autodidacte dans le developpement informatique.
+                </p>
+                <p class="pl-5 pr-5">
                     Actuellement en formation développeur web chez openclassrooms.
                 </p>
-            </aside>
-            <section class="col-sm-9">
-                <h4>
-                    <span class="font_awesome">
-                        <i class="fas fa-suitcase"></i>
-                    </span>
-                    <span class="titre_h4">Expérience professionnelle</span>
-                </h4>
-                <hr>
+            </div>
+            <!--  -->
+            <section class="col-sm-8">
+                <h3 class=" ml-2 font-weight-bold"><i class="fa fa-briefcase mr-5"></i>Expérience professionnelle</h3>
+                <hr class="bg-warning">
                 <div class="row">
-                    <aside class="col-md-3">
-                        <span class="circleCheck"><i class="fa fa-dot-circle-o" aria-hidden="true"></i></span>
-                        Depuis Octobre 2010 <br>
-                        <span class="localisation">Cher (18)</span>
+                    <!--  -->
+                    <aside class="col-sm-3">
+                        <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                        Depuis Octobre 2010
+                        Cher (18)
                     </aside>
-                    <article class="col-md-9">
-                        <h5>ETS Lefevre</h5>
-                        <div class="job">Electricien</div>
-                        <p>
-                            Amenagement électrique neuf et rénovation domestique, tertaire et industriel<BR>
-                            Vente, installation et dépannage d'électromenager.
-                        </p>
+                    <!--  -->
+                    <article class="col-sm-9">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h5>ETS Lefevre</h5>
+                            </div>
+                            <div class="col-sm-12">
+                                <h6>Electricien</h6>
+                                <p>
+                                    Amenagement électrique neuf et rénovation domestique, tertaire et industriel <br>
+                                    Vente, installation et dépannage d'électromenager.
+                                </p>
+                            </div>
+                        </div>
                     </article>
                 </div>
+                <!--  -->
                 <div class="row">
-                    <aside class="col-md-3">
-                        <span class="circle"><i class="fa fa-circle" aria-hidden="true"></i></span>
-                        Mars 2009 - Septembre 2010 <br>
-                        <span class="localisation">Loiret (45)</span>
+                    <!--  -->
+                    <aside class="col-sm-3">
+                        <i class="fa fa-circle " aria-hidden="true"></i>
+                        Mars 2009 - Septembre 2010
+                        Loiret (45)
                     </aside>
-                    <article class="col-md-9">
-                        <h5>Interim Adecco</h5>
-                        <p>
-                            Missions dans la production de ouate (Georgia Pacific) <br>
-                            Mainteance de serres horticoles (Monsanto)
-                        </p>
+                    <!--  -->
+                    <article class="col-sm-9">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h5>Interim Adecco</h5>
+                            </div>
+                            <div class="col-sm-12">
+                                <p>
+                                    Missions dans la production de ouate (Georgia Pacific) <br>
+                                    Mainteance de serres horticoles (Monsanto)
+                                </p>
+                            </div>
+                        </div>
                     </article>
                 </div>
+                <!--  -->
                 <div class="row">
-                    <aside class="col-md-3">
-                        <span class="circle"><i class="fa fa-circle" aria-hidden="true"></i></span>
-                        Novembre 2007 - Août 2008 <br>
-                        <span class="localisation">Loiret (45)</span>
+                    <!--  -->
+                    <aside class="col-sm-3">
+                        <i class="fa fa-circle " aria-hidden="true"></i>
+                        Novembre 2007 - Août 2008
+                        Loiret (45)
                     </aside>
-                    <article class="col-md-9">
-                        <h5>Interim Planett</h5>
-                        <p>
-                            Missions diverses dans la logistique
-                        </p>
+                    <!--  -->
+                    <article class="col-sm-9">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h5>Interim Planett</h5>
+                            </div>
+                            <div class="col-sm-12">
+                                <p>
+                                    Missions diverses dans la logistique
+                                </p>
+                            </div>
+                        </div>
                     </article>
                 </div>
+                <!--  -->
                 <div class="row">
-                    <aside class="col-md-3">
-                        <span class="circle"><i class="fa fa-circle" aria-hidden="true"></i></span>
-                        Avril 2006 - Octobre 2007 <br>
-                        <span class="localisation">Loiret (45)</span>
+                    <!--  -->
+                    <aside class="col-sm-3">
+                        <i class="fa fa-circle " aria-hidden="true"></i>
+                        Avril 2006 - Octobre 2007
+                        Loiret (45)
                     </aside>
-                    <article class="col-md-9">
-                        <h5>ETS PLAZA</h5>
-                        <div class="job">Electricien</div>
-                        <p>
-                            Réalisation des installations domestiques. <br>
-                            Mainteance des installations industrielles.
-                        </p>
+                    <!--  -->
+                    <article class="col-sm-9">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <h5>ETS Plaza</h5>
+                            </div>
+                            <div class="col-sm-12">
+                                <h6>Electricien</h6>
+                                <p>
+                                    Réalisation des installations domestiques. <br>
+                                    Mainteance des installations industrielles.
+                                </p>
+                            </div>
+                        </div>
                     </article>
                 </div>
+                <!--  -->
                 <div class="row">
-                    <aside class="col-md-3">
-                        <span class="circle"><i class="fa fa-circle" aria-hidden="true"></i></span>
-                        Décembre 2005 - Mars 2006 <br>
-                        <span class="localisation">Loiret (45)</span>
+                    <!--  -->
+                    <aside class="col-sm-3">
+                        <!--  -->
+                        <i class="fa fa-circle " aria-hidden="true"></i>
+                        Décembre 2005 - Mars 2006
+                        Loiret (45)
                     </aside>
-                    <article class="col-md-9">
-                        <h5>Mairie d'Échilleuse</h5>
-                        <div class="job">Agent communal</div>
+                    <!--  -->
+                    <article class="col-sm-9">
+                        <div class="row">
+                            <!--  -->
+                            <div class="col-sm-12">
+                                <!--  -->
+                                <h5>Mairie d'Échilleuse</h5>
+                            </div>
+                            <!--  -->
+                            <div class="col-sm-12">
+                                <!--  -->
+                                <h5>Agent communal</h5>
+                                <!--  -->
+                                <p>
+                                    Entretien de la commune. <br>
+                                    Distribution du courrier communal.
+                                </p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </section>
+        </div>
+        <!--  -->
+        <div class="row">
+            <!--  -->
+            <div class="col-sm-4">
+                <!--  -->
+                <h4 class="p-3 mb-4 font-weight-bold">Loisirs</h4>
+            </div>
+            <!--  -->
+            <section class="col-sm-8">
+                <h3 class=" ml-2 font-weight-bold"><i class="fa fa-pencil mr-5" aria-hidden="true"></i>Recommandation</h3>
+                <hr class="bg-warning">
+                <!--  -->
+                <div class="row">
+                    <!--  -->
+                    <article class="col-sm-12">
+                        <h5>Employeur Actuel</h5>
+                        Chef d'entreprise
                         <p>
-                            Entretien de la commune.<br>
-                            Distribution du courrier communal.
+                            Son adresse <br>
+                            Son telephone<br>
+                            Son e-mail
                         </p>
                     </article>
                 </div>
             </section>
         </div>
-        <footer class="row">
-            <div class="col-sm-3">
-                <h3 class="titleAside">loisirs</h3>
-                <img class="logo" src="./images/bike.png" alt="Bike" title="logo velo">
-                <img class="logo" src="./images/ping_pong.png" alt="ping pong" title="logo ping pong">
-                <img class="logo" src="./images/swiming.png" alt="swiming" title="logo piscine">
-            </div>
-            <div class="col-md-9">
-                <h4>
-                    <span class="font_awesome">
-                        <i class="fa fa-paperclip" aria-hidden="true"></i>
-                    </span>
-                    <span class="titre_h4">Recommandation</span>
-                </h4>
-                <hr>
-                <div class="recommendation">
-                    <h5>Employeur Actuel</h5>
-                    <div class="job">Chef d'entreprise</div>
-                    Son adresse<br>
-                    Son telephone<br>
-                    Son e-mail
-                </div>
-            </div>
-        </footer>
     </div>
 </body>
 
