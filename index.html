@@ -17,43 +17,75 @@
 
 <body>
     <div class="container-fluid">
-        <!--  -->
         <div class="row">
+            <!--colonne de gauche  -->
             <div class="col-sm-4">
-                <img class="rounded-circle shadow p-1 " src="./images/photo_profil.png" alt="Photo de profil"
-                    title="Photo de profil">
+                <!-- Photo de profil -->
+                <section class="photo_profil">
+                    <img class="rounded-circle shadow p-1 " src="./images/photo_profil.png" alt="Photo de profil"
+                        title="Photo de profil">
+                </section>
+                <!-- section contact -->
+                <section class="contact">
+                    <h4 class="p-3 mb-3 font-weight-bold">Contact</h4>
+                    <address class="ml-5">
+                        <p>Adresse: </p>
+                        <p><a href="https://www.google.fr/maps/place/18410+Blancafort/@47.5361832,2.5072538,13"
+                            target="_blank">Le nom de la rue<br>18410 Blancafort</a> </p>
+                        <p>Téléphone:</p>
+                        <p><a href="tel:070000001">070000001</a></p>
+                        <p>E-mail:</p>
+                        <p><a href="mailto:monemail">mon email ICI</a></p>                        
+                    </address>
+                </section>
+                <!-- section a propos de moi  -->
+                <section class="a_propos">
+                    <h4 class="p-3 mb-4 font-weight-bold">À propos de moi</h4>
+                    <p class="pl-5 pr-5">
+                        Electricien avec plus de 10 ans d'experience dans le batiment et l'industrie.
+                    </p>
+                    <p class="pl-5 pr-5">
+                        Suite a un accident de
+                        la vie, je me suis retrouvé inapte dans mon domaine.
+                    </p>
+                    <p class="pl-5 pr-5">
+                        En reconversion professionnelle.
+                    </p>
+                    <p class="pl-5 pr-5">
+                        Reconnu travailleur handicapé.
+                    </p>
+                    <p class="pl-5 pr-5">
+                        Autodidacte dans le developpement informatique.
+                    </p>
+                    <p class="pl-5 pr-5">
+                        Actuellement en formation développeur web chez openclassrooms.
+                    </p>
+                </section>
+                <!-- section Loisirs -->
+                <section class="loisirs">
+                    <h4 class="p-3 mb-4 font-weight-bold">Loisirs</h4>
+                    <img class=img-responsive src="./images/bike.png" alt="logo de velo" title="logo de velo">
+                    <img class=img-responsive src="./images/ping_pong.png" alt="logo ping pong" title="logo ping pong">
+                    <img class=img-responsive src="./images/swiming.png" alt="logo natation" title="logo natation">
+                </section>
             </div>
+            <!-- colonne de droite -->
             <div class="col-sm-8">
-                <h1><span class="text-warning">Thomas</span> Girard</h1>
-                <h2><span class="border-bottom">Dével</span>oppeur web freelance</h2>
-            </div>
-        </div>
-        <!--  -->
-        <div class="row">
-            <div class="col-sm-4">
-                <h4 class="p-3 mb-4 font-weight-bold">Contact</h4>
-                <address>
-                    Adresse: <br>
-                    <a href="https://www.google.fr/maps/place/18410+Blancafort/@47.5361832,2.5072538,13"
-                        target="_blank">Le nom de la rue<br>18410 Blancafort</a> <br>
-                    Téléphone: <br>
-                    <a href="tel:070000001">070000001</a><br>
-                    E-mail: <br>
-                    <a href="mailto:monemail">mon email ICI</a>
-                </address>
-            </div>
-            <!--  -->
-            <section class="col-sm-8">
-                <h3 class=" ml-2 font-weight-bold"><i class="fa fa-graduation-cap mr-5" aria-hidden="true"></i>Formation
+                <header class="col-sm-12">
+                    <h1><span class="text-warning">Thomas</span> Girard</h1>
+                    <h2><span class="underline">Dével</span>oppeur web freelance</h2>
+                </header>
+                <!-- <section class="col-sm-12"> -->
+                <h3 class=" ml-2 font-weight-bold pl-4">
+                    <i class="fa fa-graduation-cap mr-5" aria-hidden="true"></i>Formation
                 </h3>
                 <hr class="bg-warning">
                 <div class="row">
                     <!--  -->
-                    <aside class="col-sm-3">
-                        <p><i class="fa fa-dot-circle-o" aria-hidden="true"></i>
-                            Depuis Janvier 2020<br>
-                            À Distance
-                        </p>
+                    <aside class="col-sm-3 pl-5">
+                        <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
+                        Depuis Janvier 2020
+                        <p class="localisation">À Distance</p>
                     </aside>
                     <!--  -->
                     <article class="col-sm-9">
@@ -64,18 +96,18 @@
                             <div class="col-sm-12">
                                 <h6>Développeur web</h6>
                                 <p>
-                                    Faites vos premiers pas dans le monde du développement web : créez des sites web et
+                                    Faites vos premiers pas dans le monde du développement web : créez des sites web
+                                    et
                                     donnez vie aux maquettes !
                                 </p>
                             </div>
                         </div>
                     </article>
                     <!--  -->
-                    <aside class="col-sm-3">
-                        <p><i class="fa fa-circle " aria-hidden="true"></i>
-                            Obtenu en 2005<br>
-                            Formation continue
-                        </p>
+                    <aside class="col-sm-3 pl-5">
+                        <i class="fa fa-circle " aria-hidden="true"></i>
+                        Obtenu en 2005
+                        <p class="localisation">Formation continue</p>
                     </aside>
                     <!--  -->
                     <article class="col-sm-9">
@@ -86,7 +118,8 @@
                             <div class="col-sm-12">
                                 <h6>Electricien</h6>
                                 <p>
-                                    Les situations professionnelles visées par ce diplôme de niveau V concernent la mise
+                                    Les situations professionnelles visées par ce diplôme de niveau V concernent la
+                                    mise
                                     en œuvre, l’exploitation et la maintenance des installations et des équipements
                                     électriques.
                                 </p>
@@ -94,44 +127,17 @@
                         </div>
                     </article>
                 </div>
-            </section>
-        </div>
-        <!--  -->
-        <div class="row">
-            <!--  -->
-            <div class="col-sm-4">
-                <!--  -->
-                <h4 class="p-3 mb-4 font-weight-bold">À propos de moi</h4>
-                <p class="pl-5 pr-5">
-                    Electricien avec plus de 10 ans d'experience dans le batiment et l'industrie. 
-                </p>
-                <p class="pl-5 pr-5">
-                    Suite a un accident de
-                    la vie, je me suis retrouvé inapte dans mon domaine.
-                </p>
-                <p class="pl-5 pr-5">
-                    En reconversion professionnelle.
-                </p>
-                <p class="pl-5 pr-5">
-                    Reconnu travailleur handicapé.
-                </p>
-                <p class="pl-5 pr-5">
-                    Autodidacte dans le developpement informatique.
-                </p>
-                <p class="pl-5 pr-5">
-                    Actuellement en formation développeur web chez openclassrooms.
-                </p>
-            </div>
-            <!--  -->
-            <section class="col-sm-8">
-                <h3 class=" ml-2 font-weight-bold"><i class="fa fa-briefcase mr-5"></i>Expérience professionnelle</h3>
+                <!-- </section> -->
+                <!-- <section class="col-sm-12"> -->
+                <h3 class=" ml-2 font-weight-bold pl-4"><i class="fa fa-briefcase mr-5"></i>Expérience professionnelle
+                </h3>
                 <hr class="bg-warning">
                 <div class="row">
                     <!--  -->
-                    <aside class="col-sm-3">
+                    <aside class="col-sm-3 pl-5">
                         <i class="fa fa-dot-circle-o" aria-hidden="true"></i>
                         Depuis Octobre 2010
-                        Cher (18)
+                        <p class="localisation">Cher (18)</p>
                     </aside>
                     <!--  -->
                     <article class="col-sm-9">
@@ -142,7 +148,8 @@
                             <div class="col-sm-12">
                                 <h6>Electricien</h6>
                                 <p>
-                                    Amenagement électrique neuf et rénovation domestique, tertaire et industriel <br>
+                                    Amenagement électrique neuf et rénovation domestique, tertaire et industriel
+                                    <br>
                                     Vente, installation et dépannage d'électromenager.
                                 </p>
                             </div>
@@ -152,10 +159,10 @@
                 <!--  -->
                 <div class="row">
                     <!--  -->
-                    <aside class="col-sm-3">
+                    <aside class="col-sm-3 pl-5">
                         <i class="fa fa-circle " aria-hidden="true"></i>
                         Mars 2009 - Septembre 2010
-                        Loiret (45)
+                        <p class="localisation">Loiret (45)</p>
                     </aside>
                     <!--  -->
                     <article class="col-sm-9">
@@ -175,10 +182,10 @@
                 <!--  -->
                 <div class="row">
                     <!--  -->
-                    <aside class="col-sm-3">
+                    <aside class="col-sm-3 pl-5">
                         <i class="fa fa-circle " aria-hidden="true"></i>
                         Novembre 2007 - Août 2008
-                        Loiret (45)
+                        <p class="localisation">Loiret (45)</p>
                     </aside>
                     <!--  -->
                     <article class="col-sm-9">
@@ -197,10 +204,10 @@
                 <!--  -->
                 <div class="row">
                     <!--  -->
-                    <aside class="col-sm-3">
+                    <aside class="col-sm-3 pl-5">
                         <i class="fa fa-circle " aria-hidden="true"></i>
                         Avril 2006 - Octobre 2007
-                        Loiret (45)
+                        <p class="localisation">Loiret (45)</p>
                     </aside>
                     <!--  -->
                     <article class="col-sm-9">
@@ -221,11 +228,11 @@
                 <!--  -->
                 <div class="row">
                     <!--  -->
-                    <aside class="col-sm-3">
+                    <aside class="col-sm-3 pl-5">
                         <!--  -->
                         <i class="fa fa-circle " aria-hidden="true"></i>
                         Décembre 2005 - Mars 2006
-                        Loiret (45)
+                        <p class="localisation">Loiret (45)</p>
                     </aside>
                     <!--  -->
                     <article class="col-sm-9">
@@ -238,7 +245,7 @@
                             <!--  -->
                             <div class="col-sm-12">
                                 <!--  -->
-                                <h5>Agent communal</h5>
+                                <h6>Agent communal</h6>
                                 <!--  -->
                                 <p>
                                     Entretien de la commune. <br>
@@ -248,18 +255,11 @@
                         </div>
                     </article>
                 </div>
-            </section>
-        </div>
-        <!--  -->
-        <div class="row">
-            <!--  -->
-            <div class="col-sm-4">
-                <!--  -->
-                <h4 class="p-3 mb-4 font-weight-bold">Loisirs</h4>
-            </div>
-            <!--  -->
-            <section class="col-sm-8">
-                <h3 class=" ml-2 font-weight-bold"><i class="fa fa-pencil mr-5" aria-hidden="true"></i>Recommandation</h3>
+                <!-- </section> -->
+
+                <!-- <section class="col-sm-8"> -->
+                <h3 class=" ml-2 font-weight-bold  pl-4"><i class="fa fa-pencil mr-5" aria-hidden="true"></i>Recommandation
+                </h3>
                 <hr class="bg-warning">
                 <!--  -->
                 <div class="row">
@@ -274,7 +274,8 @@
                         </p>
                     </article>
                 </div>
-            </section>
+                <!-- </section> -->
+            </div>
         </div>
     </div>
 </body>

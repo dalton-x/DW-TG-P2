@@ -1,4 +1,4 @@
-
+/*
 [class*="col-"], footer{
     background-color: rgba(243, 77, 77, 0.596);
     border: 2px solid black;
@@ -13,10 +13,13 @@
 .col-sm-4{
     background-color: #FECA07;
 }
+
+
 /* font awesome*/
 .fa{
     color: #FECA07;
 }
+
 /* photo de profil*/
 .rounded-circle{
     width: 60%;
@@ -26,24 +29,33 @@
     margin-bottom: 10%;
 }
 
+header{
+    padding-top: 17%;
+    padding-bottom: 15%;
+}
+
 /* tous les titres*/
 h1{
+    margin-left: 10%;
     text-transform: uppercase;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 h2{
-    color: red;
+    margin-left: 10%;
 }
 
+
 h3{
-    color: green;
+    padding-top: 5%;
+    font-size: 20%;
     text-transform: uppercase;
 }
 
 h4{
+    text-align: center;
     background-color: #404040 ;
-    color: blue;
+    color: #FECA07;
     text-transform: uppercase;
 }
 
@@ -51,5 +63,19 @@ h5{
     color: fuchsia;
 }
 h6{
-    color: white;
+    color: grey;
+}
+
+/* soulignage du debut du h2*/
+.underline{
+    border-bottom: 2px solid #FECA07;
+}
+/* Alignement de la section loisirs*/
+section.loisirs{
+    margin-top: 90%;
+}
+/* Alignement des logo loisirs*/
+.img-responsive{    
+    margin-right: 7%;
+    width: 25%;
 }
