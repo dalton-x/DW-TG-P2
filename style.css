@@ -73,7 +73,7 @@ address p a{
 	margin-left: 10%;
 	margin-right: 10%;
 	margin-bottom: 25%;
-	padding-bottom: 105%; /* a faire evolué en fonction de la colonne de droite*/
+	padding-bottom: 75%; /* a faire evolué en fonction de la colonne de droite*/
 	padding-top: 10%;
 }
 
