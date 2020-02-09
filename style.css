@@ -274,13 +274,13 @@ h6{
 	/* alignement des date et localisation */
 	aside.col-lg-4{
 		margin-top: 3%;
-		padding-left: 2%;
+		padding-left: 10%;
 		padding-right: 0px;
 		font-size: 0.8em;
 	}
 
 	.localisation{
-		padding-left: 8.5%;
+		padding-left: 5.5%;
 	}
 
 	/* Font des menu h3 */
@@ -313,25 +313,31 @@ h6{
 
 	/* Mise en forme des h5*/
 	h5{
+		margin-left: 5%;
 		font-size: 1em;
 		font-weight: bold;
 	}
 
 	/* Mise en formes des h6*/
 	h6{
+		margin-left: 5%;
 		font-size: 1em;
 		font-weight: bold; 
 		color: rgb(90, 89, 89);
 	}
 
+	/* placement des description des emplois*/
+	.col-lg-12 p{
+		padding-left: 5%;
+		padding-right: 5%;
+	}
+
 }
 
+/* ipad */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
-/* tablette portrait*/
-@media screen and (min-width: 768px) and (max-width: 1280px) {
-
-/* Modification colonne de droite */
-
+	/* Modification colonne de droite */
 	/*Mise en fome de la photo de profil*/
 	img{
 		display: flex;
@@ -368,8 +374,14 @@ h6{
 		text-align: left;
 		margin-left: 5%;
 		margin-right: 5%;
-		margin-bottom: 5%;
-		padding-bottom: 5%;
+		margin-bottom: 0%;
+		padding-bottom: 0%;
+	}
+
+	/* loisirs */
+	/* Positionnement article loisirs*/
+	.loisirs{
+		margin-top: 10%;
 	}
 
 	/* placement des fonts awesome*/
@@ -392,13 +404,13 @@ h6{
 	/* alignement des date et localisation */
 	aside.col-lg-4{
 		margin-top: 3%;
-		padding-left: 2%;
+		padding-left: 6%;
 		padding-right: 0px;
 		font-size: 0.8em;
 	}
 
 	.localisation{
-		padding-left: 8.5%;
+		padding-left: 2.6%;
 	}
 
 	/* Font des menu h3 */
@@ -424,14 +436,23 @@ h6{
 
 	/* Mise en forme des h5*/
 	h5{
+		padding-left: 5%;
 		font-size: 1em;
 		font-weight: bold;
 	}
 
 	/* Mise en formes des h6*/
 	h6{
+		padding-left: 5%;
 		font-size: 1em;
 		font-weight: bold; 
 		color: rgb(90, 89, 89);
 	}
+
+	/* placement des description des emplois*/
+	.col-lg-12 p{
+		padding-left: 5%;
+	}
+
 }
+
