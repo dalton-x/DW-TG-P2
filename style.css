@@ -18,10 +18,10 @@
 
 	font-family: 'URW-Grotesk-Light';
 	src: url('./font/URW-Grotesk-Light.ttf');
-  }
+}
 /****** colonne gauche ******/
 /* Mise en couleur du fond*/
-div.col-lg-4{
+div.col-lg-4 {
 	background-color: #FECA07;
 }
  
@@ -32,35 +32,30 @@ img{
 	width: 350px;
 	height: 350px;
 	margin: auto;
-	margin-bottom: 10%;
-	margin-top: 10%;
 	overflow: hidden;
 	border-radius: 50%;
 	box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.1);
 }
 
+
+/* couleur du prenom */
+h4, .prenom, .fa, aside.col-lg-4::before, aside.point.col-lg-4::before{
+	color: #FECA07;
+}
+
 /* mise en forme des titres h4 (contact,apropos,loisirs)*/
 h4{
 	font-family: "Nimbus-regular";
-	font-size: 3em;
 	background-color: #404040;
 	margin-left: -15px;
 	margin-right: -15px;
-	font-weight: bold;
 	text-align: center;
-	color: #FECA07;
 	text-transform: uppercase;
-	padding-bottom: 10px;
-	padding-top: 10px;
 }
 
-/* Adresse */
-address{
+/* Mise en forme des sections */
+section{
 	margin-top: 10%;
-	margin-left: 10%;
-	margin-bottom: 10%;
-	font-size: 1.5em;
-	font-weight: bold;
 }
 
 address p{
@@ -74,13 +69,8 @@ address p a{
 /* a propos de moi */
 .a_propos{    
 	font-family: "URW-Grotesk-Light";
-	font-size: 1.7em;
-	text-align: justify;
-	margin-left: 10%;
-	margin-right: 10%;
 	margin-bottom: 25%;
-	padding-bottom: 110%;
-	padding-top: 10%;
+	padding-bottom: 170%;
 }
 
 /*Loisirs*/
@@ -89,10 +79,6 @@ address p a{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	margin-top: 5%;
-	margin-left: 5%;
-	margin-right: 5%;
-	margin-bottom: 5%;
 	font-size: 250%;
 }
 
@@ -100,17 +86,14 @@ address p a{
 .circle i{
 	color: #404040;
 	border: 6px solid #404040;
-	border-radius: 100%;
 	padding: 20px;
 }
 
 /****** Colonne de droite *******/
 /* gestion de la box nom titre du job*/
 .col-lg-11{
-	margin-left: 5%;
 	margin-top: 12%;
 	margin-bottom: 17%;
-	font-size: 2em;
 }
 
 /* Mise a la taille de la font*/
@@ -120,15 +103,9 @@ address p a{
 
 /* Mise a la taille et a la couleur du job*/
 .job{
-	font-weight: bold;
-	font-size: 1.4em;
 	color: #4A4A4A;
 }
 
-/* couleur du prenom */
-.prenom{
-	color: #FECA07;
-}
 
 /* soulignement du job */
 .underline {
@@ -137,444 +114,47 @@ address p a{
 
 /* aspect des titres des sections "Formation", "Expérience professionelle" et "Recommandations" */
 .formation h3, .exp_pro h3, .recommandation h3 {
-	font-size: 1.8em;
 	text-transform: uppercase;
-	font-weight: bold;
-	
 }
 
-/* Mise en forme des barres jaune*/
+/* Mise en forme des barres jaune */
 hr{
 	height: 2px;
 	width: auto;
-	margin-left: 5%;
 }
 
-/* Mise en couleur des fonts awesome*/
-.fa{
-	color: #FECA07;
-}
-
-/* Mise en forme des sections */
-section{
-	margin-top: 10%;
-}
-
-/* Font des menu h3 */
-.formation,.exp_pro, .recommandation {
-	font-size: 1.2em;
-	font-family: "arimo-regular";
-}
-
-/* ecartement des box*/
-article.col-lg-8{
-	margin-top: 3%;
-}
-
-/* Alignement des fonts awesome*/
+/* Alignement des fonts awesome */
 h3 i{
-	margin-left: 5%;
-	margin-right: 10%;
 	font-size: 2em;
+}
+
+/* Font awesome */
+aside.col-lg-4::before, aside.point.col-lg-4::before{
+	font-family: "Font Awesome 5 Free";
+}
+
+aside.col-lg-4::before{
+	content: "\f192";
+	font-weight: 200; 
+}
+
+aside.point.col-lg-4::before{
+	content: "\f111";
+	font-weight: 900;
 }
 
 /* alignement des date et localisation */
 aside.col-lg-4{
-	margin-top: 3%;
 	padding-left: 7%;
 }
 
+/* position de localisation */
 .localisation{
-	padding-left: 7%;
-}
-
-/* Mise en forme des h5*/
-h5{
-	font-size: 1.7em;
-	font-weight: bold;
-}
-
-/* Mise en formes des h6*/
-h6{
-	font-size: 1em;
-	font-weight: bold; 
-	color: rgb(90, 89, 89);
+	margin-left: 7.9%;
 }
 
 /* centrage des textes */
 .col-lg-6{
 	text-align: center;
-}
-
-
-/* mobile */
-@media screen and (min-width: 320px) and (max-width: 767px) {
-
-	/* Modification colonne de droite */
-
-	/*Mise en fome de la photo de profil*/
-	img{
-		display: flex;
-		justify-content: center;
-		width: auto;
-		height: auto;
-		margin: auto;
-		margin-bottom: 5%;
-		margin-top: 5%;
-		overflow: hidden;
-		border-radius: 50%;
-		box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.1);
-	}
-
-	/* mise en forme des titres h4 (contact,apropos,loisirs)*/
-	h4{
-		font-family: "Nimbus-regular";
-		font-size: 2em;
-		background-color: #404040;
-		margin-left: -15px;
-		margin-right: -15px;
-		font-weight: bold;
-		text-align: center;
-		color: #FECA07;
-		text-transform: uppercase;
-		padding-bottom: 5px;
-		padding-top: 5px;
-	}
-
-	/* a propos de moi */
-	.a_propos{    
-		font-family: "URW-Grotesk-Light";
-		font-size: 1.7em;
-		text-align: left;
-		margin-left: 5%;
-		margin-right: 5%;
-		margin-bottom: 5%;
-		padding-bottom: 5%;
-	}
-
-	/* placement des fonts awesome*/
-	.circle{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		margin-top: 1%;
-		margin-left: 5%;
-		margin-right: 5%;
-		margin-bottom: 5%;
-		font-size: 250%;
-	}
-
-	/****** Colonne de droite *******/
-	/* gestion de la box nom titre du job*/
-	.col-lg-11{
-		font-size: 1em;
-		text-align: center;
-		margin-left: 0%;
-	}
-	/* alignement des date et localisation */
-	aside.col-lg-4{
-		margin-top: 3%;
-		padding-left: 10%;
-		padding-right: 0px;
-		font-size: 0.8em;
-	}
-
-	.localisation{
-		padding-left: 5.5%;
-	}
-
-	/* Font des menu h3 */
-	.formation,.exp_pro, .recommandation {
-		margin-top: 4%;
-	}
-	
-	/* aspect des titres des sections "Formation", "Expérience professionelle" et "Recommandations" */
-	.formation h3, .exp_pro h3, .recommandation h3 {
-		font-size: 0.8em;
-		text-transform: uppercase;
-		font-weight: bold;
-		
-	}
-
-	/* Alignement des fonts awesome*/
-	h3 i.fa{
-		margin-left: 5%;
-		margin-right: 5%;
-		font-size: 1.3em;
-	}
-
-	/* Mise en forme des barres jaune*/
-	hr{
-		height: 2px;
-		width: auto;
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-
-	/* Mise en forme des h5*/
-	h5{
-		margin-left: 5%;
-		font-size: 1em;
-		font-weight: bold;
-	}
-
-	/* Mise en formes des h6*/
-	h6{
-		margin-left: 5%;
-		font-size: 1em;
-		font-weight: bold; 
-		color: rgb(90, 89, 89);
-	}
-
-	/* placement des description des emplois*/
-	.col-lg-12 p{
-		padding-left: 5%;
-		padding-right: 5%;
-	}
-
-}
-
-/* ipad */
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-
-	/* Modification colonne de droite */
-	/*Mise en fome de la photo de profil*/
-	img{
-		display: flex;
-		justify-content: center;
-		width: auto;
-		height: auto;
-		margin: auto;
-		margin-bottom: 5%;
-		margin-top: 5%;
-		overflow: hidden;
-		border-radius: 50%;
-		box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.1);
-	}
-
-	/* mise en forme des titres h4 (contact,apropos,loisirs)*/
-	h4{
-		font-family: "Nimbus-regular";
-		font-size: 2em;
-		background-color: #404040;
-		margin-left: -15px;
-		margin-right: -15px;
-		font-weight: bold;
-		text-align: center;
-		color: #FECA07;
-		text-transform: uppercase;
-		padding-bottom: 5px;
-		padding-top: 5px;
-	}
-
-	/* a propos de moi */
-	.a_propos{    
-		font-family: "URW-Grotesk-Light";
-		font-size: 1.7em;
-		text-align: left;
-		margin-left: 5%;
-		margin-right: 5%;
-		margin-bottom: 0%;
-		padding-bottom: 10%;
-	}
-
-	/* loisirs */
-	/* Positionnement article loisirs*/
-	.loisirs{
-		margin-top: 10%;
-	}
-
-	/* placement des fonts awesome*/
-	.circle{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		margin-top: 1%;
-		margin-left: 5%;
-		margin-right: 5%;
-		margin-bottom: 5%;
-		font-size: 250%;
-	}
-
-	/****** Colonne de droite *******/
-	/* gestion de la box nom titre du job*/
-	.col-lg-11{
-		font-size: 1.5em;
-	}
-	/* alignement des date et localisation */
-	aside.col-lg-4{
-		margin-top: 3%;
-		padding-left: 6%;
-		padding-right: 0px;
-		font-size: 0.8em;
-	}
-
-	.localisation{
-		padding-left: 2.6%;
-	}
-
-	/* Font des menu h3 */
-	.formation,.exp_pro, .recommandation {
-		margin-top: 4%;
-	}
-	
-	/* aspect des titres des sections "Formation", "Expérience professionelle" et "Recommandations" */
-	.formation h3, .exp_pro h3, .recommandation h3 {
-		font-size: 1.5em;
-		text-transform: uppercase;
-		font-weight: bold;
-		
-	}
-
-	/* Mise en forme des barres jaune*/
-	hr{
-		height: 2px;
-		width: auto;
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-
-	/* Mise en forme des h5*/
-	h5{
-		padding-left: 5%;
-		font-size: 1em;
-		font-weight: bold;
-	}
-
-	/* Mise en formes des h6*/
-	h6{
-		padding-left: 5%;
-		font-size: 1em;
-		font-weight: bold; 
-		color: rgb(90, 89, 89);
-	}
-
-	/* placement des description des emplois*/
-	.col-lg-12 p{
-		padding-left: 5%;
-	}
-
-}
-
-/* ipad paysage */
-@media screen and (min-width: 1024px) and (max-width: 1979px) {
-
-	/* Modification colonne de droite */
-	/*Mise en fome de la photo de profil*/
-	img{
-		display: flex;
-		justify-content: center;
-		width: auto;
-		height: auto;
-		margin: auto;
-		margin-bottom: 5%;
-		margin-top: 5%;
-		overflow: hidden;
-		border-radius: 50%;
-		box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.1);
-	}
-
-	/* mise en forme des titres h4 (contact,apropos,loisirs)*/
-	h4{
-		font-family: "Nimbus-regular";
-		font-size: 2em;
-		background-color: #404040;
-		margin-left: -15px;
-		margin-right: -15px;
-		font-weight: bold;
-		text-align: center;
-		color: #FECA07;
-		text-transform: uppercase;
-		padding-bottom: 5px;
-		padding-top: 5px;
-	}
-
-	/* a propos de moi */
-	.a_propos{    
-		font-family: "URW-Grotesk-Light";
-		font-size: 1.7em;
-		text-align: left;
-		margin-left: 5%;
-		margin-right: 5%;
-		margin-bottom: 0%;
-		padding-bottom: 100%;
-	}
-
-	/* loisirs */
-	/* Positionnement article loisirs*/
-	.loisirs{
-		margin-top: 10%;
-	}
-
-	/* placement des fonts awesome*/
-	.circle{
-		display: flex;
-		flex-direction: row;
-		justify-content: space-around;
-		margin-top: 1%;
-		margin-left: 5%;
-		margin-right: 5%;
-		margin-bottom: 5%;
-		font-size: 250%;
-	}
-
-	/****** Colonne de droite *******/
-	/* gestion de la box nom titre du job*/
-	.col-lg-11{
-		font-size: 1.5em;
-	}
-	/* alignement des date et localisation */
-	aside.col-lg-4{
-		margin-top: 3%;
-		padding-left: 6%;
-		padding-right: 0px;
-		font-size: 0.8em;
-	}
-
-	.localisation{
-		padding-left: 2.6%;
-	}
-
-	/* Font des menu h3 */
-	.formation,.exp_pro, .recommandation {
-		margin-top: 4%;
-	}
-	
-	/* aspect des titres des sections "Formation", "Expérience professionelle" et "Recommandations" */
-	.formation h3, .exp_pro h3, .recommandation h3 {
-		font-size: 1.5em;
-		text-transform: uppercase;
-		font-weight: bold;
-		
-	}
-
-	/* Mise en forme des barres jaune*/
-	hr{
-		height: 2px;
-		width: auto;
-		margin-left: 5%;
-		margin-right: 5%;
-	}
-
-	/* Mise en forme des h5*/
-	h5{
-		padding-left: 5%;
-		font-size: 1em;
-		font-weight: bold;
-	}
-
-	/* Mise en formes des h6*/
-	h6{
-		padding-left: 5%;
-		font-size: 1em;
-		font-weight: bold; 
-		color: rgb(90, 89, 89);
-	}
-
-	/* placement des description des emplois*/
-	.col-lg-12 p{
-		padding-left: 5%;
-	}
-
 }
 
