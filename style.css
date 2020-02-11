@@ -1,4 +1,4 @@
-/*
+
 [class*="col-"] {
 	background-color: rgba(243, 77, 77, 0.596);
 	border: 2px solid black;
@@ -70,7 +70,7 @@ address p a{
 .a_propos{    
 	font-family: "URW-Grotesk-Light";
 	margin-bottom: 25%;
-	padding-bottom: 170%;
+	padding-bottom: 110%;
 }
 
 /*Loisirs*/
@@ -158,3 +158,109 @@ aside.col-lg-4{
 	text-align: center;
 }
 
+
+/*****MOBILE*****/
+@media screen and (min-width: 375px) and (max-width: 767px) {
+
+	/* Photo de profil */
+	img{
+		display: flex;
+		justify-content: center;
+		width: 250px;
+		height: 250px;
+		margin: auto;
+		overflow: hidden;
+		border-radius: 50%;
+		box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.1);
+	}
+	
+	/* a propos de moi */
+	.a_propos{    
+		font-family: "URW-Grotesk-Light";
+		margin-bottom: 25%;
+		padding-bottom: 5%;
+	}
+
+	.h2{
+		font-size: 0.6em;
+	}
+
+	.h4{
+		font-size: 2em;
+	}
+
+	/* alignement des dates et localisations */
+	aside.col-lg-4{
+		margin-left: 10%;
+	}
+
+	/* resize titre H3 */
+	section h3.h3 {
+		font-size: 0.7em;
+	}
+
+	p.pl-5{
+		margin-right: 10%;
+	}
+
+	/* aligenment des balises hr */
+
+	h5.employeur{
+		margin-left: -15%;
+	}
+}
+
+
+/*****TABLETTE*****/
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+
+	/* Photo de profil */
+	img{
+		display: flex;
+		justify-content: center;
+		width: 250px;
+		height: 250px;
+		margin: auto;
+		overflow: hidden;
+		border-radius: 50%;
+		box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.1);
+	}
+	
+	/* a propos de moi */
+	.a_propos{    
+		font-family: "URW-Grotesk-Light";
+		margin-bottom: 25%;
+		padding-bottom: 5%;
+	}
+
+	/* size name */
+	.h2{
+		font-size: 1em;
+	}
+
+	/* size job */
+	.h4{
+		font-size: 2em;
+	}
+
+	/* alignement des dates et localisations */
+	aside.col-lg-4{
+		margin-left: 5%;
+	}
+
+	/* resize titre H3 */
+	section h3.h3 {
+		font-size: 1.5em;
+	}
+
+	p.pl-5{
+		margin-right: 10%;
+	}
+
+	/* aligenment des balises hr */
+
+	h5.employeur{
+		margin-left: -15%;
+	}
+}
