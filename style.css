@@ -1,10 +1,3 @@
-
-[class*="col-"] {
-	background-color: rgba(243, 77, 77, 0.596);
-	border: 2px solid black;
-	line-height: 40px;
-	border-radius: 6px;
-}
 /* Ajout de police d'ecriture exotique*/
 @font-face {
 	font-family: 'arimo-regular';
@@ -19,6 +12,7 @@
 	font-family: 'URW-Grotesk-Light';
 	src: url('./font/URW-Grotesk-Light.ttf');
 }
+
 /****** colonne gauche ******/
 /* Mise en couleur du fond*/
 div.col-lg-4 {
@@ -36,7 +30,6 @@ img{
 	border-radius: 50%;
 	box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.1);
 }
-
 
 /* couleur du prenom */
 h4, .prenom, .fa, aside.col-lg-4::before, aside.point.col-lg-4::before{
@@ -58,12 +51,9 @@ section{
 	margin-top: 10%;
 }
 
-address p{
-	line-height: 90%;
-}
-
 address p a{
 	font-weight: normal;
+	line-height: 90%;
 }
 
 /* a propos de moi */
@@ -105,7 +95,6 @@ address p a{
 .job{
 	color: #4A4A4A;
 }
-
 
 /* soulignement du job */
 .underline {
@@ -158,7 +147,6 @@ aside.col-lg-4{
 	text-align: center;
 }
 
-
 /*****MOBILE*****/
 @media screen and (min-width: 375px) and (max-width: 767px) {
 
@@ -166,8 +154,8 @@ aside.col-lg-4{
 	img{
 		display: flex;
 		justify-content: center;
-		width: 250px;
-		height: 250px;
+		width: 150px;
+		height: 150px;
 		margin: auto;
 		overflow: hidden;
 		border-radius: 50%;
@@ -181,6 +169,7 @@ aside.col-lg-4{
 		padding-bottom: 5%;
 	}
 
+	/* Taille de la police de titres */
 	.h2{
 		font-size: 0.6em;
 	}
@@ -210,10 +199,9 @@ aside.col-lg-4{
 	}
 }
 
-
 /*****TABLETTE*****/
 
-@media screen and (min-width: 769px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
 
 	/* Photo de profil */
 	img{
@@ -228,7 +216,7 @@ aside.col-lg-4{
 	}
 	
 	/* a propos de moi */
-	.a_propos{    
+	.col-lg-4 article .a_propos{    
 		font-family: "URW-Grotesk-Light";
 		margin-bottom: 25%;
 		padding-bottom: 5%;
