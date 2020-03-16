@@ -23,7 +23,7 @@
 
 /* Empêche le dépassement des flottants. */
 .container-fluid {
-	overflow: hidden; 
+	overflow: hidden;
 }
 
 /****** colonne gauche ******/
@@ -160,6 +160,79 @@ aside.col-lg-4{
 	text-align: center;
 }
 
+/*****Inferieur a 375px*****/
+@media screen and  (max-width: 374px) {
+
+	/* Photo de profil */
+	img{
+		margin: 20 0 2
+		0 0;
+		width: 100px;
+		height: 100px;
+	}
+
+	/* a propos de moi */
+	.a_propos{    
+		font-family: "URW-Grotesk-Light";
+		margin-bottom: 25%;
+		padding-bottom: 5%;
+		font-size: 1em;
+	}
+
+	/* Taille de la police de titres */
+	.h1{
+		font-size: 1.5em;
+	}
+
+	.h2{
+		font-size: 0.6em;
+	}
+
+	.h4{
+		font-size:1.5em;
+	}
+
+	/* alignement des fonts awesome */
+	.rounded-circle{
+		font-size: 0.6em;
+	}
+
+	/* Reprise des taille de police colonne droite */
+	.nom{
+		font-size: 3.5em;
+	}
+
+	.job{
+		font-size: 1.8em;
+	}
+
+	h5{
+		font-size: 1em;
+	}
+
+	/* alignement des dates et localisations */
+	aside.col-lg-4{
+		margin-left: 12%;
+	}
+
+	/* resize titre H3 */
+	section h3.h3 {
+		font-size: 0.6em;
+	}
+
+	p.pl-5{
+		margin-right: 10%;
+	}
+
+	/* aligenment des balises hr */
+
+	h5.employeur{
+		margin-left: -15%;
+	}
+	
+	
+}
+
 /*****MOBILE*****/
 @media screen and (min-width: 375px) and (max-width: 767px) {
 
@@ -213,7 +286,6 @@ aside.col-lg-4{
 }
 
 /*****TABLETTE*****/
-
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
 	/* Photo de profil */
