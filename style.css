@@ -106,7 +106,7 @@ address p a{
 
 /* soulignement du job */
 .underline {
-	border-bottom: 2px solid #FECA07;
+	border-bottom: 2px solid rgb(7, 254, 61);
 }
 
 /* aspect des titres des sections "Formation", "Expérience professionelle" et "Recommandations" */
