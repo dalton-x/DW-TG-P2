@@ -21,6 +21,11 @@
 	src: url('./font/URW-Grotesk-Light.ttf');
 }
 
+/* Empêche le dépassement des flottants. */
+.container-fluid {
+	overflow: hidden; 
+}
+
 /****** colonne gauche ******/
 /* Mise en couleur du fond*/
 div.col-lg-4 {
